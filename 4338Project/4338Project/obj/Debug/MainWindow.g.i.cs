@@ -80,6 +80,14 @@ namespace _4338Project {
         #line default
         #line hidden
         
+        
+        #line 34 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button KarimovButton;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -151,6 +159,15 @@ namespace _4338Project {
             
             #line 33 "..\..\MainWindow.xaml"
             this.KsenButton.Click += new System.Windows.RoutedEventHandler(this.Button_Click_Ksen);
+            
+            #line default
+            #line hidden
+            return;
+            case 6:
+            this.KarimovButton = ((System.Windows.Controls.Button)(target));
+            
+            #line 34 "..\..\MainWindow.xaml"
+            this.KarimovButton.Click += new System.Windows.RoutedEventHandler(this.KarimovButton_Click);
             
             #line default
             #line hidden

@@ -56,5 +56,11 @@ namespace _4338Project
             Borisova_4338 ksen = new Borisova_4338();
             ksen.Show();
         }
+
+        private void KarimovButton_Click(object sender, RoutedEventArgs e)
+        {
+            Karimov_4338xaml karimov_4338 = new Karimov_4338xaml();
+            karimov_4338.Show();
+        }
     }
 }
